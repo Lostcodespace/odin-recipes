@@ -1,1 +1,2 @@
 # odin-recipes
+The current project im woking on will use html to build a functional recipe website. As well as combining the use of git and and the command promp to upload said project to the github database.
