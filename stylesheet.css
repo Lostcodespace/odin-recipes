@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+body{
+    background-color: rgb(238, 238, 118);
+}
+.block{
+display: block;
+margin:auto;
+border-radius: 25px;
+width: min(70%, 500px);
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.block.recipes{
+    background-color: brown;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    block-size: 40px;  
+}
+.block#cheesecake{
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
