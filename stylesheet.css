@@ -1,35 +1,62 @@
-h1{
+*{
+    margin: auto;
     text-align: center;
-    font-weight: bold;
-    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
 }
 body{
-    background-color: rgb(238, 238, 118);
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
-.block{
-display: block;
-margin:auto;
-border-radius: 25px;
-width: min(70%, 500px);
-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+.cover{
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px 50px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(106,13,131);
 
+}
+
+.title{
+    margin: 0 auto 0;
+    width: fit-content;
+    padding: 8px;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: rgb(179, 13, 90) 1px 0 10px;;
+    box-shadow: none;
+}
+.img{
+    display: block;
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+a{
+    width: fit-content;
+    padding: 5px 20px;
+    display: block;
+    text-decoration: none;
+    text-shadow: rgb(106,13,131) 1px 0 5px;    
+    color: black;
+    background-color: rgb(238,93,108);
+    font-size: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    border-radius: 25px;
 }
 li{
     list-style-type: none;
-    text-decoration: none;
+    box-shadow: none;
 }
-.block.recipes{
-    background-color: brown;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    block-size: 40px;  
-}
-.block#cheesecake{
-    
-}
-a{
-    text-decoration: none;
-    color: black;
+ul{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
 }
